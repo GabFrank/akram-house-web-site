@@ -1,0 +1,17 @@
+{
+  "firebase": "akram-house-web-site",
+  "public": "dist/akram-house-web-site",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ],
+  "rewrites": [{
+    "source": "/public/**",
+    "destination": "/public.html"
+  },
+  {
+    "source": "**",
+    "destination": "/index.html"
+  }]
+}
